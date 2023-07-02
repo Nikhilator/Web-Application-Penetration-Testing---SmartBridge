@@ -46,3 +46,30 @@ Through this proposed solution, the project aims to provide a comprehensive unde
 application.By simulating attacks and identifying vulnerabilities, the project highlights the importance of proactive security measures and serves as a foundation
 for strengthening the security posture of web applications.
 
+Session Based Attacks
+
+1) Session Hijacking Using Cookie Stealing
+
+
+We have used Burpsuite to perform this operation. We have created an account in the website www.batterybhai.com
+
+
+ \
+We have logged in to our account and capture cookie and our php session id. We have sent the request to repeater
+
+ 
+ 
+
+
+We have copied the previous session cookie and logged out of our account.
+
+ 
+We have pasted the session in the repeater and sent the request and see we can see it is saying Valid_member.
+
+
+
+ 
+Session DOS Attack using slowloris
+
+
+
