@@ -50,26 +50,44 @@ Session Based Attacks
 
 1) Session Hijacking Using Cookie Stealing
 
+We have used Burpsuite to perform this operation. We have created an account in the website 
+www.batterybhai.com
 
-We have used Burpsuite to perform this operation. We have created an account in the website www.batterybhai.com
+![image](https://github.com/Nikhilator/Web-Application-Penetration-Testing---SmartBridge/assets/127090957/b3cdeefc-bd33-43b2-9410-5db546fb55a0)
 
+We have logged in to our account and capture cookie and our php session id. We have sent the 
+request to repeater
 
- \
-We have logged in to our account and capture cookie and our php session id. We have sent the request to repeater
+![image](https://github.com/Nikhilator/Web-Application-Penetration-Testing---SmartBridge/assets/127090957/e4245e8a-3a15-4dd4-83ba-8b4ce686030f)
 
  
  
-
-
 We have copied the previous session cookie and logged out of our account.
 
- 
-We have pasted the session in the repeater and sent the request and see we can see it is saying Valid_member.
+![image](https://github.com/Nikhilator/Web-Application-Penetration-Testing---SmartBridge/assets/127090957/200553f9-f8ee-4254-9bc3-201ed7a032d7)
 
+
+ 
+We have pasted the session in the repeater and sent the request and see we can see it is saying 
+Valid_member.
+
+![image](https://github.com/Nikhilator/Web-Application-Penetration-Testing---SmartBridge/assets/127090957/7344b2b3-17b6-46b0-9ef4-572b1f5fc2df)
+
+
+![image](https://github.com/Nikhilator/Web-Application-Penetration-Testing---SmartBridge/assets/127090957/3996f822-117c-436d-bc56-e8b061ecdef4)
 
 
  
 Session DOS Attack using slowloris
+
+![image](https://github.com/Nikhilator/Web-Application-Penetration-Testing---SmartBridge/assets/127090957/b62af7b5-f55d-4245-bb98-25636a2d951c)
+
+![image](https://github.com/Nikhilator/Web-Application-Penetration-Testing---SmartBridge/assets/127090957/5d4ca421-1fa2-4c13-88a0-7882e7a6881f)
+
+
+
+
+
 
 
 
